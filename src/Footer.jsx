@@ -5,7 +5,6 @@ function Footer() {
   return (
     <footer>
       <p> 2024 Mon Blog. Tous droits réservés.</p>
-      
     </footer>
   );
 }

@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
+import data from './index.js';
 
 
 function App() {
@@ -12,12 +13,9 @@ function App() {
 
   return (
     <>
-
-
-      
     <div className="App" >
-      <Header />
-      <MainContent />
+      <Header propsheader={data.propsheader} />
+      <MainContent samplePosts = {data.samplePosts}/>
       <Footer />
     </div>
     </>
