@@ -7,7 +7,7 @@ const propsheader = {
   backgroundColor : "#343434",
   title: " Blog ilyas mostafi",
   navigationLinks: ['Accueil', 'À Propos', 'Contact'],
-  onLogin: true,
+  onLogin: false,
   
 };
 const samplePosts = [

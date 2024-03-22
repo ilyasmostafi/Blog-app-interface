@@ -3,7 +3,7 @@ import './App.css';
 
 function Header({ propsheader }) {
   return (
-    <header style={propsheader.backgroundColor}>
+    <div><header  style={{ backgroundColor: propsheader.backgroundColor }}>
       <h1>{propsheader.title}</h1>
       <nav>
         <ul>
@@ -15,8 +15,8 @@ function Header({ propsheader }) {
           </li>
         </ul>
       </nav>
-    </header>
-  );
+    </header></div>
+  )
 }
 
 export default Header;
